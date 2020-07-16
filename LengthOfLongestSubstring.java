@@ -9,6 +9,7 @@ public class LengthOfLongestSubstring{
             i = Math.max(index[input.charAt(j)], i);
             toReturn = Math.max(toReturn, j - i + 1);
             index[input.charAt(j)] = j + 1;
+            // System.out.println('length :'+toReturn);
         }
         //Time Complexity : O(n) , j will iterate upto n times ie. input.length
         return toReturn;
