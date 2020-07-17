@@ -12,6 +12,7 @@ public class LengthOfLongestSubstring{
             // System.out.println('length :'+toReturn);
         }
         //Time Complexity : O(n) , j will iterate upto n times ie. input.length
+        //Another solution can be of using HashSet as HashSet doesn't store duplicate values
         return toReturn;
 	}
 
