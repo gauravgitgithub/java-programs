@@ -14,7 +14,7 @@ public class GetValueofNthNode {
 	}
 
 	//Using approach of main pointer and reference pointer for main pointer
- 	void getValueFromEnd(int x){
+ 	public void getValueFromEnd(int x){
 		Node mainPtr = head;
 		Node refPtr = head;
 
